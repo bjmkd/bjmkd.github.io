@@ -30,6 +30,15 @@
     })
 
 
+
+/*RESPONSIVE NAVBAR*/
+$(document).ready(function(){
+  $('.menu-toggle').click(function(){
+    $('ul').toggleClass('active')
+  })
+})
+
+
 /*PARALLAX SCROLL FIRST BACKGROUND*/
 $(window).scroll(function(){
   parallax();
@@ -69,4 +78,6 @@ function parallax() {
   		}, 400);
 
   	})();
+
+
 
