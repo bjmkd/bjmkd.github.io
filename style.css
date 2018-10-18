@@ -150,7 +150,9 @@ input[type="button"]{
 }
 input[type="button"]:hover{
 	
-	color: #FCB908;
+	color: #fff;
+	background-color: #FCB908;
+	cursor: pointer;
 }
 .about_two{
 	padding: 150px 0;
@@ -308,6 +310,7 @@ footer{
 
 #me{
 	color: #FCB908;
+	border-bottom: 4px solid #FCB908;
 }
 img.footimg{
 	position: absolute;
