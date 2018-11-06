@@ -25,6 +25,63 @@ $(document).ready(function() {
 
     })
 
+
+    /*PARALLAX SCROLL FIRST BACKGROUND*/
+    $(window).scroll(function() {
+        parallax();
+    })
+
+    function parallax() {
+
+        var wScroll = $(window).scrollTop();
+
+        $('.parallax--bg').css('background-position', 'center ' + (wScroll * 0.75) + 'px')
+            /*PARALLAX SCROLL ABOUT ME BOX*/
+
+        $('.parallax--box').css('top', -9.4 + (wScroll * 0.015) + 'em')
+    }
+
+
+
+    /*NAVBAR SCROLL DARK*/
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop()) {
+            $('nav').addClass('black');
+        } else {
+            $('nav').removeClass('black');
+        }
+    })
+
+
+    //show scrollToTop button
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 600) {
+            $(".scrollToTop").fadeIn();
+            $(".sidebar a").fadeIn();
+        } else {
+            $(".scrollToTop").fadeOut();
+            $(".sidebar a").fadeOut();
+        }
+    })
+
+    //smooth scroling to top
+    $(".scrollToTop").click(function() {
+        $("html,body").animate({ scrollTop: 0 }, 1000)
+
+    })
+
+
+
+
+    /*FLY HELLO*/
+    $(function() {
+
+        setTimeout(function() {
+            $('.fly-in-text').removeClass('hidden');
+        }, 400);
+
+    })();
+
 })
 
 
@@ -35,60 +92,3 @@ $(document).ready(function() {
         $('ul').toggleClass('active')
     })
 })
-
-
-/*PARALLAX SCROLL FIRST BACKGROUND*/
-$(window).scroll(function() {
-    parallax();
-})
-
-function parallax() {
-
-    var wScroll = $(window).scrollTop();
-
-    $('.parallax--bg').css('background-position', 'center ' + (wScroll * 0.75) + 'px')
-        /*PARALLAX SCROLL ABOUT ME BOX*/
-
-    $('.parallax--box').css('top', -9.4 + (wScroll * 0.015) + 'em')
-}
-
-
-
-/*NAVBAR SCROLL DARK*/
-$(window).on('scroll', function() {
-    if ($(window).scrollTop()) {
-        $('nav').addClass('black');
-    } else {
-        $('nav').removeClass('black');
-    }
-})
-
-
-//show scrollToTop button
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 600) {
-        $(".scrollToTop").fadeIn();
-        $(".sidebar a").fadeIn();
-    } else {
-        $(".scrollToTop").fadeOut();
-        $(".sidebar a").fadeOut();
-    }
-})
-
-//smooth scroling to top
-$(".scrollToTop").click(function() {
-    $("html,body").animate({ scrollTop: 0 }, 1000)
-
-})
-
-
-
-
-/*FLY HELLO*/
-$(function() {
-
-    setTimeout(function() {
-        $('.fly-in-text').removeClass('hidden');
-    }, 400);
-
-})();
