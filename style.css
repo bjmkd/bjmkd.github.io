@@ -265,6 +265,29 @@ input[type="button"]:hover {
     background-color: #FCB908;
 }
 
+.resumeBtn {
+    background-color: #FCB908;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: 0.5 ease all;
+    border: none;
+    outline: none;
+}
+
+.resumeBtn:hover {
+    background: white;
+    color: #FCB908;
+    border: 2px solid #FCB908;
+    cursor: pointer;
+}
+
+.resumeBtn:focus {
+    outline: none;
+}
+
 .por {
     border: 1px solid #ddd;
     border-radius: 4px;
