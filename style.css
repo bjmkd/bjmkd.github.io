@@ -251,7 +251,8 @@ input[type="button"]:hover {
 }
 
 .portfolio {
-    height: 100vh;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .portfolio h2 {
@@ -265,38 +266,34 @@ input[type="button"]:hover {
     background-color: #FCB908;
 }
 
-.resumeBtn {
-    background-color: #FCB908;
-    color: white;
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 1rem;
-    margin-top: 20px;
-    transition: 0.5 ease all;
-    border: none;
-    outline: none;
-}
-
-.resumeBtn:hover {
-    background: white;
-    color: #FCB908;
-    border: 2px solid #FCB908;
-    cursor: pointer;
-}
-
-.resumeBtn:focus {
-    outline: none;
-}
-
 .por {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
 }
 
 .por:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     opacity: 0.6;
+}
+
+.description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #868686;
+    margin-top: 15px;
+}
+
+.skills li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    color: black;
+    background-color: #FCB908;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 8px;
+    margin-bottom: 5px;
 }
 
 .contact {
