@@ -198,7 +198,7 @@ input[type="button"]:hover {
 }
 
 .box_about {
-    padding: 100px 20px 120px 20px;
+    padding: 50px 20px 50px 20px;
     background-color: #FCB908;
     top: -9.4em;
 }
@@ -214,6 +214,13 @@ input[type="button"]:hover {
 .box_about h4 {
     font-family: 'Didact Gothic', sans-serif;
     color: #fff;
+}
+
+.about_img {
+    border: 10px solid #f39c12;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .box_content h5 {
