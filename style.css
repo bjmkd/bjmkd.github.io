@@ -310,6 +310,7 @@ input[type="button"]:hover {
     color: #FCB908;
     height: 100vh;
     background-attachment: fixed;
+    height: auto;
 }
 
 .contact h2 {
@@ -422,6 +423,12 @@ footer {
     margin-bottom: 30px;
     margin-left: 20px;
     color: #FCB908;
+    transition: all .1s;
+}
+
+.foot i:hover {
+    transform: rotate(360deg);
+    color: white;
 }
 
 #me {
