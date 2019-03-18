@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Artifika');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+body {
+    /*background-image: url("Landing-Page/background.jpg");*/
+
+    background-image: url(../a.jpg);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-position: center;
+
+}
+
+.navbar-primary {
+    background-color: #F5F5F5;
+}
+
+.border1 {
+    border-bottom: 2px solid black;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+    background-color: #f2f3f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 8px 8px 5px #eaeae1;
+}
+
+.logo {
+    width: 80px;
+
+}
+
+.wrap-hamb {
+    background-color: #0696D7;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+}
+
+.nav-item a {
+    color: gray;
+    font-family: 'Artifika', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 52px;
+    margin-left: 10px;
+}
+
+.nav-item a:hover {
+    color: #0696D7;
+    background-color: #EEEEEE;
+}
+
+.main-container{
+    font-size: 16px;
+
+}
+.card-title{
+    font-size: 16px;
+    color: #0696D7;
+    font-weight: 700;
+    height: 40px;
+    padding-bottom: 7px;
+}
+
+.box img {
+    width: 45%;
+    height: 140px;
+    margin-top: 20%;
+    margin-left: 28%;
+}
+
+.individual {
+    height: 300px;
+    border-radius: 9px;
+    background-color: #f2f3f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 6px 6px 5px #eaeae1;
+}
+
+.diploma img,
+.individual img {
+    height: 120px;
+    border-top-left-radius: 7px;
+    
+    border-radius: 7px 7px 0 0;
+}
+
+.diploma {
+    height: 450px;
+    border-radius: 9px;
+    background-color: #f2f3f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 8px 8px 5px #eaeae1;
+}
+
+
+.diplomma .card-title {
+    margin-top: 110px;
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+.diplomma .card-body {
+    height: 300px;
+}
+
+.blue {
+    color: blue
+}
+
+.tabs {
+    margin-top: 50px;
+}
+
+input {
+    width: 100%;
+}
+
+
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    /* essential for enabling glyphicon */
+    content: "\e114";
+    /* adjust as needed, taken from bootstrap.css */
+    float: right;
+    /* adjust as needed */
+    color: grey;
+    /* adjust as needed */
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";
+    /* adjust as needed, taken from bootstrap.css */
+}
