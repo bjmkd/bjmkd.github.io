@@ -1,0 +1,591 @@
+/* latin */
+
+@font-face {
+    font-family: 'Shadows Into Light Two';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Shadows Into Light Two'), local('ShadowsIntoLightTwo-Regular'), url(https://fonts.gstatic.com/s/shadowsintolighttwo/v5/4iC86LVlZsRSjQhpWGedwyOoW-0A6_kpsyNmpAzHGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html {
+    height: 100%;
+    width: 100%;
+    background: #2DA8F6;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    color: #4b4b40;
+    font-size: 20px;
+    line-height: 1.4em;
+    width: 100%
+}
+
+.body-section {
+    padding: 0 !important;
+}
+
+
+/* A Page */
+
+.outer-container-a {
+    width: 720px;
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.inner-container-a {
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 1px solid #0d5887;
+    background-color: #FFFFFF;
+}
+
+.av-section .date-time {
+    padding-bottom: 20px;
+    text-align: right;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5em;
+    border-bottom: 1px solid #EEE;
+}
+
+.av-section .header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 40px;
+    border: 1px solid #eee;
+}
+
+.av-section .header h1 {
+    color: #77ADD7;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: "Shadows Into Light Two", Helvetica, sans-serif;
+    line-height: 1.3em;
+}
+
+.av-section .subheader {
+    font-size: 1.7em;
+    color: #77ADD7;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.av-section .copy {
+    margin-top: 30px;
+}
+
+.av-section .copy a {
+    text-decoration: underline;
+    color: #0000EE;
+}
+
+.av-section .copy a:hover {
+    font-weight: 700;
+}
+
+.av-section .italic {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.av-section .bold {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.av-section ul {
+    margin: 45px 0 45px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.av-section li {
+    margin-top: 30px;
+}
+
+.av-section li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    width: 1.3em;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.av-section .no li:before {
+    content: "\f00d";
+    color: #FFF;
+    background-color: #FF0000;
+}
+
+.av-section .yes li:before {
+    content: "\f00c";
+    color: #FFF;
+    background-color: #3CB371;
+}
+
+.av-section img {
+    display: block;
+    margin: 30px auto 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    max-width: 95%;
+}
+
+.av-section .signoff {
+    margin-top: 50px;
+    color: #666;
+}
+
+.av-section .signoff img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+
+/* / A Page */
+
+.outer-container {
+    width: 1120px;
+    max-width: 1120px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.inner-container {
+    border: 1px solid #0d5887;
+    padding: 20px 45px 50px;
+}
+
+.analysing-container {
+    border: 1px solid #0d5887;
+    padding: 45px 100px 5px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+h2.main-title {
+    font-family: 'Shadows Into Light Two';
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #77ADD7;
+    text-align: center;
+}
+
+h4.subheader {
+    font-size: 1.15em;
+    color: #0b476d;
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+}
+
+.main-image {
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 11px 10px 6px -6px rgba(0, 0, 0, 0.05);
+    border: 3px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+p.main-text {
+    text-align: center;
+    font-family: "Lato";
+    line-height: 1.43;
+    color: #4b4b40;
+    margin: 25px 0 0;
+}
+
+.button-panel {
+    text-align: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.button-start {
+    display: block;
+    margin: 40px auto 0;
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    border-radius: 10px;
+    padding: 15px 90px 15px 25px;
+    font-size: 1.7em;
+    background: #FEE555 url('images/button-right-arrow.png') no-repeat right 25px center;
+    color: #333;
+    border: 1px solid #c1aa24;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.button-start:hover,
+.button-start:active {
+    color: #FFF;
+    background: #2DA8F6 url('images/button-right-arrow-white.png') no-repeat right 25px center;
+}
+
+.button-start-mobile {
+    font-size: 20px;
+}
+
+.question-header,
+.analysing-header {
+    padding: 0 0 20px;
+    border-bottom: 0px !important;
+}
+
+h2.question-number {
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    font-size: 1.6em;
+    color: #0b476d;
+}
+
+h4.question-text {
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    font-size: 1.2em;
+    color: #4b4b40;
+}
+
+.progress-bar {
+    margin: 30px 0px 0px 0px;
+    background-color: #DDD;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #DDD;
+}
+
+.progress-bar::-moz-progress-bar {
+    background-color: #0b476d;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #0b476d;
+}
+
+.progress-bar::-ms-fill {
+    background-color: #0b476d;
+}
+
+.answers-panel {
+    padding: 20px 0 0 0;
+}
+
+.button-quiz {
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    margin-bottom: 15px;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1em;
+    line-height: 21px;
+    background-color: #fde361;
+    color: #333;
+    background: #FEE555;
+    border: 1px solid #4b4b40;
+    text-transform: none;
+}
+
+.button-quiz:hover,
+.button-quiz:active,
+.button-quiz:visited {
+    color: #FFF;
+    background: #2DA8F6;
+}
+
+.card-quiz {
+    border-radius: 10px;
+}
+
+h3.analysing-text {
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #0b476d;
+}
+
+h6.analysing-text-bottom {
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #4b4b40;
+}
+
+.progress-analysing {
+    margin: 0;
+    background-color: #DDD;
+}
+
+.progress-analysing::-webkit-progress-bar {
+    background-color: #DDD;
+}
+
+.progress-analysing::-moz-progress-bar {
+    background-color: #FEE555;
+}
+
+.progress-analysing::-webkit-progress-value {
+    background-color: #FEE555;
+}
+
+.progress-analysing::-ms-fill {
+    background-color: #FEE555;
+}
+
+h1.congratulations-title {
+    font-family: 'Shadows Into Light Two';
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #77ADD7;
+}
+
+h4.congratulations-subtitle {
+    font-family: "Lato", Helvetica, sans-serif, sans-serif;
+    font-size: 1.3em;
+    color: #0b476d;
+}
+
+.guidelines-list ul {
+    text-align: left;
+    list-style: none;
+    padding: 0 0 0 15px;
+    margin-bottom: 30px;
+}
+
+.guidelines-list li {
+    padding-left: 1.3em;
+    font-family: 'lato';
+    font-size: 18px;
+    color: #111;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    line-height: 29px;
+}
+
+.guidelines-list li i {
+    padding: 5px;
+    background: #3cb371;
+    border-radius: 3px;
+    color: #fff;
+    margin: 0 10px 0 0;
+    width: auto;
+}
+
+.agree-button {
+    width: 300px;
+}
+
+.legal-footer {
+    color: white;
+    margin: 30px auto 40px !important;
+    text-align: center;
+    font-size: 0.65em;
+}
+
+.legal-footer p {
+    margin: 10px 0 0;
+}
+
+.legal-footer a {
+    color: #FFF;
+}
+
+.button-hidden {
+    margin-bottom: 0px;
+    transition: 0.5s;
+    height: 0px;
+    background-size: 0% auto;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 0px;
+    background-color: #ffffff;
+    color: black !important;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+    border: 0px solid #ffffff;
+    text-transform: none;
+    color: white !important;
+}
+
+.button-hidden:hover,
+.button-hidden:active,
+.button-hidden:visited {
+    color: black !important;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+}
+
+@media screen and (max-width: 1138px) {
+    body {
+        font-size: 18px;
+    }
+    .outer-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0;
+        padding: 0;
+    }
+    .inner-container {
+        padding: 20px 30px 40px;
+        border-radius: 0;
+        border: 0;
+    }
+    .analysing-container {
+        padding: 30px 50px 0;
+        border-radius: 0;
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .outer-container-a {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0;
+        padding: 0;
+    }
+    .inner-container-a {
+        padding: 20px 30px;
+        border-radius: 0;
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    body {
+        font-size: 16px;
+    }
+    .inner-container-a {
+        padding: 10px 15px;
+    }
+    .inner-container {
+        padding: 10px 10px 40px;
+    }
+    .analysing-container {
+        padding: 20px 20px 0;
+    }
+    .av-section .inner-container {
+        padding: 10px 15px;
+    }
+    .av-section .date-time {
+        padding-bottom: 10px;
+    }
+    .av-section .header img {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        width: 100px;
+        height: 100px;
+    }
+    .av-section .header h1 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 2.1em;
+    }
+    .av-section .subheader {
+        font-size: 1.4em;
+        line-height: 1.3em;
+        text-align: center;
+    }
+    .av-section .copy {
+        margin-top: 20px;
+    }
+    .av-section li {
+        margin-top: 20px;
+    }
+    .main-image {
+        margin: 10px 0;
+    }
+    .h2.main-title {
+        font-size: 1.4em;
+    }
+    .h4.subheader {
+        font-size: 1.2em;
+        line-height: 1.1em;
+    }
+    p.main-text {
+        margin-top: 15px;
+    }
+    .button-panel {
+        margin: 20px 0;
+    }
+    .button-start {
+        font-size: 1.05em;
+        margin: 30px auto 0;
+        padding: 10px 85px 10px 20px;
+    }
+    li {
+        margin-top: 10px;
+    }
+    .question-header {
+        padding: 10px 5px;
+    }
+    h3.analysing-text {
+        font-size: 1.2em;
+    }
+    h6.analysing-text-bottom {
+        font-size: 1.05em;
+    }
+    h1.congratulations-title {
+        font-size: 2.25em;
+    }
+    h4.congratulations-subtitle {
+        font-size: 1.125em;
+        margin-top: 0;
+    }
+    .guidelines-list {
+        margin-top: 0 !important;
+    }
+    .guidelines-list li {
+        font-size: 0.93em;
+        line-height: 25px;
+        padding: 10px 0;
+    }
+    .agree-button {
+        font-size: 1.8em;
+        width: 90%;
+    }
+    .legal-footer {
+        margin: 20px auto 20px !important;
+    }
+    .legal-footer p {
+        margin-top: 5px;
+    }
+}
