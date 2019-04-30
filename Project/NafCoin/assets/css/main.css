@@ -213,6 +213,14 @@ img {
   border-top-right-radius: calc(0.5rem - 1px);
 }
 
+.card_img_overview {
+  width: 500px;
+  height: 400px;
+  border: 15px solid #5463FF;
+  margin-top: -40px;
+  border-radius: 5px;
+}
+
 /*-------------------------------
 dark theme
 -------------------------------*/
@@ -2673,6 +2681,9 @@ responsive style
 }
 
 @media (max-width: 640px) {
+
+
+
   .hero-banner .hero-title {
     font-size: 1.3rem;
   }
@@ -2789,6 +2800,10 @@ responsive style
 
     width: 30px;
     height: 30px;
+  }
+
+  .card_img_overview {
+    margin-top: 5px;
   }
 
   .js_steps_carousel .owl-stage-outer {
