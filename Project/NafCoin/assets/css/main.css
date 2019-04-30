@@ -2680,9 +2680,128 @@ responsive style
   }
 }
 
+
+.reviw {
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+
+.box-rt {
+  width: 100%;
+  margin: 12px;
+}
+
+.box-y {
+  background-color: #4a62ff;
+  padding: 12px;
+}
+
+.box-p {
+  background-color: #4a62ff;
+  padding: 12px;
+}
+
+.btn-circle.btn-xl {
+  width: 200px;
+  height: 200px;
+  padding: 10px 16px;
+  border-radius: 75px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: auto;
+  height: auto;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.tokenomics {
+  padding: 0px 40px;
+}
+
+.tokenomics span {
+  color: #0b495e;
+  font-weight: bold;
+}
+
+.soft-gap {
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 15px 15px 0px;
+}
+
+.soft-gap p {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.first_gap {
+  background-color: #2cc0bc;
+  color: white;
+  /* -webkit-box-shadow: 10px 10px 5px -7px rgba(44, 192, 188, 1);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(44, 192, 188, 1);
+  box-shadow: 10px 10px 5px -7px rgba(44, 192, 188, 1);
+   */
+  /* -webkit-box-shadow: 3px 3px 18px 0px rgba(48, 194, 186, 1);
+  -moz-box-shadow: 3px 3px 18px 0px rgba(48, 194, 186, 1);
+  box-shadow: 3px 3px 18px 0px rgba(48, 194, 186, 1); */
+}
+
+.another_gap {
+  background-color: #5663ff;
+  color: white;
+  /* -webkit-box-shadow: 10px 10px 5px -7px rgba(86, 99, 255, 1);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(86, 99, 255, 1);
+  box-shadow: 10px 10px 5px -7px rgba(86, 99, 255, 1); */
+  /* -webkit-box-shadow: 3px 3px 18px 0px rgba(86, 99, 255, 1);
+  -moz-box-shadow: 3px 3px 18px 0px rgba(86, 99, 255, 1);
+  box-shadow: 3px 3px 18px 0px rgba(86, 99, 255, 1); */
+}
+
+.another_gap2 {
+  background-color: #3C434F;
+  color: white;
+}
+
+.gap_title {
+  color: #2cc0bc;
+  font-weight: bold;
+}
+
+
 @media (max-width: 640px) {
 
 
+  .soft-gap h5 {
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .soft-gap p {
+    font-weight: 100;
+    font-size: 20px;
+  }
+
+  .soft-gap p i {
+
+    font-size: 20px;
+  }
 
   .hero-banner .hero-title {
     font-size: 1.3rem;
@@ -2809,96 +2928,4 @@ responsive style
   .js_steps_carousel .owl-stage-outer {
     margin-top: 50px;
   }
-}
-
-.reviw {
-  margin-bottom: 7px;
-  margin-top: 5px;
-}
-
-.box-rt {
-  width: 100%;
-  margin: 12px;
-}
-
-.box-y {
-  background-color: #4a62ff;
-  padding: 12px;
-}
-
-.box-p {
-  background-color: #4a62ff;
-  padding: 12px;
-}
-
-.btn-circle.btn-xl {
-  width: 200px;
-  height: 200px;
-  padding: 10px 16px;
-  border-radius: 75px;
-  font-size: 24px;
-  line-height: 1.33;
-}
-
-.btn-circle {
-  width: auto;
-  height: auto;
-  padding: 6px 0px;
-  border-radius: 15px;
-  text-align: center;
-  font-size: 12px;
-  line-height: 1.42857;
-}
-
-.tokenomics {
-  padding: 0px 40px;
-}
-
-.tokenomics span {
-  color: #0b495e;
-  font-weight: bold;
-}
-
-.soft-gap {
-  text-align: center;
-  border-radius: 10px;
-  padding: 15px 15px 15px 0px;
-}
-
-.soft-gap p {
-  font-weight: 200;
-  font-size: 30px;
-}
-
-.first_gap {
-  background-color: #2cc0bc;
-  color: white;
-  /* -webkit-box-shadow: 10px 10px 5px -7px rgba(44, 192, 188, 1);
-  -moz-box-shadow: 10px 10px 5px -7px rgba(44, 192, 188, 1);
-  box-shadow: 10px 10px 5px -7px rgba(44, 192, 188, 1);
-   */
-  /* -webkit-box-shadow: 3px 3px 18px 0px rgba(48, 194, 186, 1);
-  -moz-box-shadow: 3px 3px 18px 0px rgba(48, 194, 186, 1);
-  box-shadow: 3px 3px 18px 0px rgba(48, 194, 186, 1); */
-}
-
-.another_gap {
-  background-color: #5663ff;
-  color: white;
-  /* -webkit-box-shadow: 10px 10px 5px -7px rgba(86, 99, 255, 1);
-  -moz-box-shadow: 10px 10px 5px -7px rgba(86, 99, 255, 1);
-  box-shadow: 10px 10px 5px -7px rgba(86, 99, 255, 1); */
-  /* -webkit-box-shadow: 3px 3px 18px 0px rgba(86, 99, 255, 1);
-  -moz-box-shadow: 3px 3px 18px 0px rgba(86, 99, 255, 1);
-  box-shadow: 3px 3px 18px 0px rgba(86, 99, 255, 1); */
-}
-
-.another_gap2 {
-  background-color: #3C434F;
-  color: white;
-}
-
-.gap_title {
-  color: #2cc0bc;
-  font-weight: bold;
 }
