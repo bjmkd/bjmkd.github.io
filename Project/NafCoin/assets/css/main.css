@@ -216,7 +216,7 @@ img {
 .card_img_overview {
   width: 500px;
   height: 400px;
-  border: 15px solid #5463FF;
+  border: 15px solid #5463ff;
   margin-top: -40px;
   border-radius: 5px;
 }
@@ -269,7 +269,7 @@ buttons
   box-shadow: none;
 }
 
-.btn-group-sm>.btn,
+.btn-group-sm > .btn,
 .btn-sm {
   padding: 0.6rem 1.5rem !important;
 }
@@ -941,7 +941,6 @@ registration link style
 }
 
 @media (max-width: 667px) {
-
   .login-bg,
   .registration-bg {
     width: 100%;
@@ -2378,7 +2377,7 @@ responsive style
   }
 
   .section-gap {
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
   }
 
   .section-gap-sm {
@@ -2680,7 +2679,6 @@ responsive style
   }
 }
 
-
 .reviw {
   margin-bottom: 7px;
   margin-top: 5px;
@@ -2740,17 +2738,6 @@ responsive style
   font-size: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .first_gap {
   background-color: #2cc0bc;
   color: white;
@@ -2775,7 +2762,7 @@ responsive style
 }
 
 .another_gap2 {
-  background-color: #3C434F;
+  background-color: #3c434f;
   color: white;
 }
 
@@ -2784,10 +2771,7 @@ responsive style
   font-weight: bold;
 }
 
-
 @media (max-width: 640px) {
-
-
   .soft-gap h5 {
     font-weight: 100;
     font-size: 15px;
@@ -2799,7 +2783,6 @@ responsive style
   }
 
   .soft-gap p i {
-
     font-size: 20px;
   }
 
@@ -2893,7 +2876,7 @@ responsive style
     margin-top: 0;
   }
 
-  .btn-group-sm>.btn,
+  .btn-group-sm > .btn,
   .btn-sm {
     padding: 0.3rem 0.5rem !important;
   }
