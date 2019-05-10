@@ -176,11 +176,27 @@ img {
   box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
 }
 
+.upstream_box1 {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
+  box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
+}
+
 .upstream_box h6 {
   color: white;
   text-align: left;
-  font-weight: 400;
+  font-weight: 500;
   padding: 5px 0;
+  font-size: 14px;
+}
+
+
+.upstream_box1 h6 {
+  color: white;
+  text-align: left;
+  font-weight: 500;
+  padding: 5px 0;
+  font-size: 14px;
 }
 
 .view-link {
@@ -329,7 +345,7 @@ buttons
   box-shadow: none;
 }
 
-.btn-group-sm > .btn,
+.btn-group-sm>.btn,
 .btn-sm {
   padding: 0.6rem 1.5rem !important;
 }
@@ -1001,6 +1017,7 @@ registration link style
 }
 
 @media (max-width: 667px) {
+
   .login-bg,
   .registration-bg {
     width: 100%;
@@ -2554,6 +2571,12 @@ responsive style
     box-shadow: none;
   }
 
+  .upstream_box1 {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
   .hero-banner {
     height: 60%;
   }
@@ -2957,7 +2980,7 @@ responsive style
     margin-top: 0;
   }
 
-  .btn-group-sm > .btn,
+  .btn-group-sm>.btn,
   .btn-sm {
     padding: 0.3rem 0.5rem !important;
   }
