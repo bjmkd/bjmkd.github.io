@@ -129,21 +129,35 @@ img {
 
 .roadmap {
   background: #4a62ff;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("../img/overview1.jpg") no-repeat center center / cover;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../img/overview1.jpg") no-repeat center center / cover; */
   color: white;
   border-radius: 4px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
+  box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
+}
+.roadmap-box {
+  background-color: #59a9ff;
 }
 
-.border_row {
+.bor_left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.bor_right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* .border_row {
   border: 1px solid white;
   border-right: none;
-}
+} */
 
-.border_row1 {
+/* .border_row1 {
   border: 1px solid white;
   border-left: none;
-}
+} */
 
 .roadmap h6 {
   margin-bottom: 15px;
@@ -189,7 +203,6 @@ img {
   padding: 5px 0;
   font-size: 14px;
 }
-
 
 .upstream_box1 h6 {
   color: white;
@@ -345,7 +358,7 @@ buttons
   box-shadow: none;
 }
 
-.btn-group-sm>.btn,
+.btn-group-sm > .btn,
 .btn-sm {
   padding: 0.6rem 1.5rem !important;
 }
@@ -506,7 +519,7 @@ app header
 .app-header .nav-item .dropdown-menu {
   z-index: 200;
 
-  width: 14rem;
+  width: 15rem;
   margin-top: 0rem;
 
   border: none;
@@ -785,13 +798,13 @@ section style
 }
 
 .section-title {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 .section-title h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
-
+  color: #3c434f;
   margin-bottom: 0;
 }
 
@@ -1017,7 +1030,6 @@ registration link style
 }
 
 @media (max-width: 667px) {
-
   .login-bg,
   .registration-bg {
     width: 100%;
@@ -2867,7 +2879,16 @@ responsive style
 }
 
 @media (max-width: 640px) {
+  .small_margin {
+    margin: 7px;
+  }
+
   .upstream_box h6 {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+
+  .upstream_box1 h6 {
     font-size: 10px;
     padding: 5px 0;
   }
@@ -2980,7 +3001,7 @@ responsive style
     margin-top: 0;
   }
 
-  .btn-group-sm>.btn,
+  .btn-group-sm > .btn,
   .btn-sm {
     padding: 0.3rem 0.5rem !important;
   }
@@ -2996,6 +3017,10 @@ responsive style
 
   ul.comments li {
     padding: 10px 0 0 30px;
+  }
+
+  .section-title h2 {
+    font-size: 25px;
   }
 }
 
