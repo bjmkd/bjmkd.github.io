@@ -2884,7 +2884,7 @@ responsive style
   .ico-progress .progress-caption-top {
     position: absolute;
     top: -25px;
-    right: -50px;
+    right: -46px;
     color: #3c434f;
     font-weight: 400;
     font-size: 10px;
@@ -2893,7 +2893,7 @@ responsive style
   .ico-progress .progress-caption-top:after {
     position: absolute;
     top: 5px;
-    right: 50px;
+    right: 46px;
     width: 1px;
     height: 20px;
     content: "";
