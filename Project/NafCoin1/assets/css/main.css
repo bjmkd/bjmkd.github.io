@@ -137,6 +137,7 @@ img {
   -moz-box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
   box-shadow: 10px 10px 5px 0px rgba(60, 67, 79, 0.55);
 }
+
 .roadmap-box {
   background-color: #59a9ff;
 }
@@ -145,10 +146,12 @@ img {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
 .bor_right {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
 /* .border_row {
   border: 1px solid white;
   border-right: none;
@@ -358,7 +361,7 @@ buttons
   box-shadow: none;
 }
 
-.btn-group-sm > .btn,
+.btn-group-sm>.btn,
 .btn-sm {
   padding: 0.6rem 1.5rem !important;
 }
@@ -1030,6 +1033,7 @@ registration link style
 }
 
 @media (max-width: 667px) {
+
   .login-bg,
   .registration-bg {
     width: 100%;
@@ -1279,21 +1283,19 @@ ico-progress
 .ico-progress .progress-caption-top {
   position: absolute;
   top: -30px;
-  right: 10px;
-
+  right: -58px;
   color: #3c434f;
+  font-weight: 400;
+  font-size: 12.8px;
 }
 
 .ico-progress .progress-caption-top:after {
   position: absolute;
-  top: 5px;
-  right: -11px;
-
+  top: 0px;
+  right: 61px;
   width: 1px;
   height: 20px;
-
   content: "";
-
   background: #d7ccfd;
 }
 
@@ -1301,7 +1303,6 @@ ico-progress
   position: absolute;
   top: 50px;
   right: -20%;
-
   color: #3c434f;
 }
 
@@ -2879,6 +2880,26 @@ responsive style
 }
 
 @media (max-width: 640px) {
+
+  .ico-progress .progress-caption-top {
+    position: absolute;
+    top: -25px;
+    right: -50px;
+    color: #3c434f;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .ico-progress .progress-caption-top:after {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    width: 1px;
+    height: 20px;
+    content: "";
+    background: #d7ccfd;
+  }
+
   .small_margin {
     margin: 7px;
   }
@@ -3001,7 +3022,7 @@ responsive style
     margin-top: 0;
   }
 
-  .btn-group-sm > .btn,
+  .btn-group-sm>.btn,
   .btn-sm {
     padding: 0.3rem 0.5rem !important;
   }
